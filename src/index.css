@@ -1,0 +1,61 @@
+
+/* General Styling */
+:root {
+  font-family: 'Poppins', sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5em;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+input {
+  width: calc(100% - 1.6em);
+  padding: 0.8em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #646cff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .result {
+    font-size: 1.2em;
+    padding: 0.8em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+}

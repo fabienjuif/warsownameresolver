@@ -1,0 +1,53 @@
+/*
+^0 	Black
+^1 	Red
+^2 	Green
+^3 	Yellow
+^4 	Blue
+^5 	Cyan
+^6 	Purple
+^7 	White
+^8 	Orange
+^9 	Gray
+*/
+
+.black,
+.color-0 {
+  color: #000000;
+}
+.red,
+.color-1 {
+  color: #ff0000;
+}
+.green,
+.color-2 {
+  color: #00ff00;
+}
+.yellow,
+.color-3 {
+  color: #ffff00;
+}
+.blue,
+.color-4 {
+  color: #0000ff;
+}
+.cyan,
+.color-5 {
+  color: #00ffff;
+}
+.purple,
+.color-6 {
+  color: #ff00ff;
+}
+.white,
+.color-7 {
+  color: #ffffff;
+}
+.orange,
+.color-8 {
+  color: #ff8000;
+}
+.gray,
+.color-9 {
+  color: #808080;
+}
